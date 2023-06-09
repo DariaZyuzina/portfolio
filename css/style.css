@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #050404;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    display: inline-block;
+}
+
+button,
+input {
+    border: none;
+    background-color: transparent;
+}
+
+input {
+    padding-top: 5px;
+}
+
+input::placeholder {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #cccccc;
+}
+
+h1,h2 {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #ffffff;
+    border: 3px solid #9965e3;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 14px 28px;
+    margin-right: 92px;
+}
+
+.menu a {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.menu .yellow {
+    color: #ffb822;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.search {
+    border: 3px solid #9965e3;
+    display: inline-block;
+    border-radius: 7px;
+    max-width: 280px;
+    padding: 10px;
+    margin: 10px 10px 80px 10px;
+}
+
+/* hero */
+
+.hero {
+    background-image: url(/image/kate\ leo.jpg);
+    border-radius: 0 100px 0 100px;
+    padding: 298px 0;
+}
+
+.name {
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffb822;
+    text-align: center;
+}
+
+.name-desc {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
