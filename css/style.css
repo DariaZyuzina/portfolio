@@ -88,7 +88,7 @@ h1,h2 {
 /* hero */
 
 .hero {
-    background-image: url(../image/kate\ leo.jpg);
+    background-image: url("kate\ leo.jpg");
     border-radius: 0 100px 0 100px;
     padding: 298px 0;
 }
